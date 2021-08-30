@@ -1,31 +1,30 @@
 types {
 	text/html				html htm;
 	text/css				css;
-	text/javascript				js;
-	text/xml				xml;
-	text/plain				txt;
-	text/plain				diff patch;
-	text/plain				log;
-	text/plain				asc;
+	text/javascript				js mjs;
+	application/json			json map;
+	application/ld+json			jsonld;
 	application/manifest+json		webmanifest;
+	application/xml				xml;
+
+	text/plain				txt asc;
 
 	image/png				png;
 	image/jpeg				jpeg jpg;
 	image/gif				gif;
 	image/x-icon				ico;
 	image/svg+xml				svg;
+	image/webp				webp;
 
-	application/x-gzip			gz;
-	application/x-tgz			tar.gz tgz;
-	application/x-tar			tar;
+	application/vnd.ms-fontobject		eot;
+	font/otf				otf;
+	font/ttf				ttf;
+	font/woff				woff;
+	font/woff2				woff2;
+
+	application/gzip			gz;
 	application/zip				zip;
-	application/x-bzip			bz2;
-	application/x-bzip-compressed-tar	tar.bz2 tbz;
-	application/x-xz			xz;
-	application/x-xz-compressed-tar		tar.xz txz;
 
-	application/x-iso			iso;
-	application/x-bittorrent		torrent;
 	application/pgp-signature		sig;
 	application/pdf				pdf;
 }
