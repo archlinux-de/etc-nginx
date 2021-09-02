@@ -1,10 +1,12 @@
 *~
 *.pacnew
 *.pacsave
-/auth.d/
+/auth.d/*
 !/auth.d/.gitkeep
 /koi-utf
 /koi-win
 /scgi_params
 /uwsgi_params
 /win-utf
+/root/.well-known/openpgpkey/hu/*
+!/root/.well-known/openpgpkey/hu/.gitkeep
