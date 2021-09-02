@@ -1,3 +1,5 @@
 *~
 *.pacnew
 *.pacsave
+/auth.d/
+!/auth.d/.gitkeep
