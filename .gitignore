@@ -10,3 +10,4 @@
 /win-utf
 /root/.well-known/openpgpkey/hu/*
 !/root/.well-known/openpgpkey/hu/.gitkeep
+/.idea
