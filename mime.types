@@ -1,32 +1,33 @@
 types {
-	text/html				html htm;
-	text/css				css;
-	text/javascript				js mjs;
-	application/json			json map;
-	application/ld+json			jsonld;
+	text/html						html htm;
+	text/css						css;
+	text/javascript					js mjs;
+	application/json				json map;
+	application/ld+json				jsonld;
 	application/manifest+json		webmanifest;
-	application/xml				xml;
+	application/trafficadvice+json	traffic-advice;
+	application/xml					xml;
 
-	text/plain				txt asc;
+	text/plain						txt asc;
 
-	image/png				png;
-	image/jpeg				jpeg jpg;
-	image/gif				gif;
-	image/x-icon				ico;
-	image/svg+xml				svg;
-	image/webp				webp;
+	image/png						png;
+	image/jpeg						jpeg jpg;
+	image/gif						gif;
+	image/x-icon					ico;
+	image/svg+xml					svg;
+	image/webp						webp;
 
-	application/vnd.ms-fontobject		eot;
-	font/otf				otf;
-	font/ttf				ttf;
-	font/woff				woff;
-	font/woff2				woff2;
+	application/vnd.ms-fontobject	eot;
+	font/otf						otf;
+	font/ttf						ttf;
+	font/woff						woff;
+	font/woff2						woff2;
 
-	application/gzip			gz;
-	application/zip				zip;
+	application/gzip				gz;
+	application/zip					zip;
 
 	application/pgp-signature		sig;
-	application/pdf				pdf;
+	application/pdf					pdf;
 }
 
 default_type application/octet-stream;
