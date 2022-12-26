@@ -5,7 +5,6 @@ types {
 	application/json				json map;
 	application/ld+json				jsonld;
 	application/manifest+json		webmanifest;
-	application/trafficadvice+json	traffic-advice;
 	application/xml					xml;
 
 	text/plain						txt asc;
