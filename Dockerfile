@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk --no-cache add nginx nginx-mod-http-brotli openssl py-pip && pip install gixy 'pyparsing<3'
+RUN apk --no-cache add nginx nginx-mod-http-brotli openssl py-pip && pip install --break-system-packages gixy 'pyparsing<3'
 RUN mkdir -p /etc/ssl/private && openssl dhparam -out /etc/ssl/private/dhparams.pem 1024
 
 RUN for d in archlinux.de pierre-schmitz.com laber-land.de; do \
