@@ -8,3 +8,7 @@ insert_final_newline = true
 indent_style = tab
 tab_width = 8
 indent_size = tab
+
+[justfile]
+indent_style = space
+indent_size = space
