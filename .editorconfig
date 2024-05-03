@@ -1,14 +1,9 @@
 root = true
 
 [*]
+indent_size = 4
+indent_style = space
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
-indent_style = tab
-tab_width = 8
-indent_size = tab
-
-[justfile]
-indent_style = space
-indent_size = space
