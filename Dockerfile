@@ -1,7 +1,7 @@
 FROM archlinux
 
 RUN pacman -Syu --noconfirm --cachedir /tmp/pacman-cache nginx nginx-mod-brotli nginx-mod-headers-more python-pip
-RUN pip install --break-system-packages https://github.com/dvershinin/gixy/archive/refs/heads/master.zip
+RUN pip install --break-system-packages gixy-ng
 RUN mkdir -p /etc/ssl/private && openssl dhparam -out /etc/ssl/private/dhparams.pem 2048
 
 RUN for d in archlinux.de laber-land.de; do \
