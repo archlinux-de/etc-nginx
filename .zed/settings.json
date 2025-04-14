@@ -1,0 +1,5 @@
+{
+    "file_types": {
+        "Nginx": ["conf", "mime.types", "fastcgi_params"]
+    }
+}
