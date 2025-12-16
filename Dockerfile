@@ -1,5 +1,6 @@
 FROM archlinux
 
+RUN mkdir /tmp/pacman-cache
 RUN pacman -Syu --noconfirm --cachedir /tmp/pacman-cache nginx nginx-mod-brotli nginx-mod-headers-more python-pip
 RUN pip install --break-system-packages gixy-ng
 
