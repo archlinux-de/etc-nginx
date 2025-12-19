@@ -2,7 +2,7 @@ FROM archlinux
 
 RUN mkdir /tmp/pacman-cache
 RUN pacman -Syu --noconfirm --cachedir /tmp/pacman-cache nginx nginx-mod-brotli nginx-mod-headers-more python-pip
-RUN pip install --break-system-packages gixy-ng
+RUN pip install --break-system-packages gixy-ng==0.2.22
 
 RUN for d in archlinux.de laber-land.de; do \
     mkdir -p /etc/letsencrypt/live/$d; \
